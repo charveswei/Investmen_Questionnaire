@@ -1,0 +1,299 @@
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: Arial,sans-serif;
+}
+
+.header-background {
+  
+  height: 30%;
+  width: 100%;
+  
+}
+
+.header-profile {
+  
+  height: 10%;
+  width: 100%;
+  
+}
+
+.header-text {
+  color: #000000;
+  font-size: xx-large;
+  
+  height: initial;
+  width: center;
+  font-weight:bold;
+  text-align: center;
+}
+
+.content-background {
+  background-image: url("../img/content.jpg");
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.indexcontent-background {
+  background-image: url("../img/indexcontent.jpg");
+  width: 375px;
+  height: 667px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+
+.content-background-repeat {
+  background-image: url("../img/content.jpg");
+  background-position: center;
+  position: relative;
+}
+
+.test-background{
+  background-image:url("../img/testbackground.png");
+  background-repeat: no-repeat;
+  background-size: 100% 120%;
+}
+
+.answer-background{
+  
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.profile-background{
+  background-image: url("../img/profile.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  height: 100%;
+}
+
+.content-background-repeat-alpha {
+  height: 100%;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background:rgba(255,255,255,0.4);
+}
+
+.investment-content{
+  background-image: url("../img/moon.png");
+  background-position:center ;
+  background-repeat: no-repeat;
+ height:100%;
+  width: auto;
+}
+
+.content-text {
+  color: #32190E;
+  font-size: large;
+  font-size: 16px;
+  height: 50%;
+  margin-left:57.68px;
+  
+}
+
+.test-table{
+  width:100%; 
+  table-layout:fixed;
+}
+
+.questions-text {
+  color: #CDEFF7;
+  font-size: small;
+  margin-left:5%;
+  letter-spacing: ;
+}
+
+.questionsTitle-text {
+  font-weight:bold;
+  color: #000000;
+  font-size: small;
+}
+
+
+.ans-title {
+  color: #32190E;
+  font-size: 18px;
+  
+  height: initial;
+
+  font-weight:bold;
+  text-align: center;
+}
+
+.indexbtn{
+  background-image:url(../img/indexbut.png) ;
+   width:131.58px;height: 43.94px;
+   margin-top: 170px;
+   background-color:rgba(255, 255, 255, 0);
+   border:0px none;
+}
+
+.submitbtn{
+  background-image:url(../img/submit.png) ;
+  width:64.56px;
+  height: 42.33px; 
+  
+  background-color:rgba(255, 255, 255, 0);
+  border:0px none;
+  background-repeat: no-repeat;
+
+}
+
+.nextbtn{
+  text-align: center;
+  background-image:url(../img/next.png) ;
+  width:88px;
+  height: 41px; 
+  background-color:rgba(255, 255, 255, 0);
+  border:0px none;
+  background-size: cover;
+}
+
+.ans-img-frame {
+  height: 230px; 
+  width: 390px;
+  position: relative;
+}
+.ans-img {
+  max-height: 100%;  
+  max-width: 100%; 
+  width: auto;
+  height: auto;
+  position: absolute;  
+  top: 0;  
+  bottom: 0;  
+  left: 0;  
+  right: 0;  
+  margin: auto;
+}
+
+.ans-people-text {
+  color: #ffffff;
+  font-size: medium;
+  background-color: #00000050;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.ans-type-title {
+  
+  color: #32190E;
+  font-weight:bold;
+  font-size: large;
+  text-align: center;
+  
+}
+
+.ans-type-text {
+  color: #32190E;
+  font-size: small; 
+  margin-left: 15%;
+  margin-right: 15%;
+  text-align: center;
+}
+
+
+.ad-background {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+.ad-img {
+	
+	
+}
+.ad-title {
+  color: #171d42;
+  font-size:large;
+  position: absolute;
+  top: 0px;
+  left: 80px;
+}
+.ad-content {
+  color: #171d42;
+  font-size: small;
+  position: absolute;
+  top: 40px;
+  left: 80px;
+}
+.ad-1 {
+  position: absolute;
+  top: 20%;
+  left: 100px;
+  width: 200px;
+}
+
+.ad-2 {
+  position: absolute;
+  top: 35%;
+  left: 160px;
+  width: 200px;
+}
+
+.ad-3 {
+  position: absolute;
+  top: 55%;
+  left: 160px;
+  width: 200px;
+}
+
+.ad-4 {
+  position: absolute;
+  top: 70%;
+  left: 100px;
+  width: 200px;
+}
+
+
+
+.compass-img{
+  position: absolute;
+  top: 35%;
+  left: 20px;
+  width: 150px;
+}
+
+.form-div {
+  width: 100%;
+}
+
+.center-horizontal {
+  text-align: center;
+}
+
+.center-vertical {
+  position: relative;
+  top: 50%;
+  text-align: center;
+  transform: translateY(-50%);
+}
+
+.profile-title{
+  background-image:url(../img/profiletitle.png) ;
+  background-repeat: no-repeat;
+  color:#CDEFF7 ;
+  font-weight:bold;
+
+}
+
+.answer{
+  width:100%;
+  
+}
+
+.radio-color{
+  color:#CDEFF7;
+}
