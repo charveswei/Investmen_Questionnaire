@@ -94,7 +94,7 @@ body, html {
   background-position:center ;
   background-repeat: no-repeat;
  height:100%;
-  width: auto;
+  width: 100%;
 }
 
 .content-text {
@@ -123,11 +123,21 @@ body, html {
   color: #000000;
   font-size: small;
 }
+a:link {
+  color:#40210F;
+  font-size:18px;
+  font-weight:bold;
+  }
 
+a:visited {
+  color:#40210F;
+  font-size:18px;
+  font-weight:bold;
+  }
 
 .ans-title {
   color: #32190E;
-  font-size: 18px;
+  font-size: 20px;
   
   height: initial;
 
@@ -204,17 +214,17 @@ body, html {
   
   color: #32190E;
   font-weight:bold;
-  font-size: large;
+  font-size: 24px;
   text-align: center;
   
 }
 
 .ans-type-text {
   color: #32190E;
-  font-size: small; 
-  margin-left: 15%;
-  margin-right: 15%;
-  text-align: center;
+  font-size: 14px; 
+  margin-left: 25%;
+  margin-right: 25%;
+  text-align: left;
 }
 
 
@@ -286,6 +296,7 @@ body, html {
 
 .center-horizontal {
   text-align: center;
+  
 }
 
 .center-vertical {

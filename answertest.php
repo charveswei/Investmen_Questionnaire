@@ -118,7 +118,7 @@ else if ($maxsumans==$technologysumAns){
 								},
 								pointLabels:{
 									fontColor : '#40210F' ,
-									fontSize: 24,
+									fontSize: 18,
 								},
 								ticks: {
 									display:false,
@@ -138,9 +138,11 @@ else if ($maxsumans==$technologysumAns){
 	<div style="heigh=100%;display:;padding-top:55%" id="rader" >
 					<br>
 										
-					<div style=" margin-left:13%;margin-right:13% ;opacity:40%;background-image:url('./img/raderbackground.png');background-size:contain;">
-						 <div style ="max-width: 494px; max-height:406px;">
-						<canvas id="anspie" style="width:494px; height:406px;" ></canvas>
+					<div style=" margin-left:13%;margin-right:13% ;opacity:40%;background-image:url('./img/radarbackground.png');background-size:contain;background-repeat: no-repeat">
+					<div style="background-image:url('./img/radarname.png');background-position: center;background-repeat: no-repeat;background-size: cover;height:31px;text-align:center;font-size:20px;color:white;margin-left:10%;margin-right:10%;"><?php echo $Content?>投資人格</div>
+						 <div style ="max-width: 489px; max-height:507px;">
+						 
+						<canvas id="anspie" style="width:489px; height:507px;" ></canvas>
 						</div>
 					</div>		
     </div>
