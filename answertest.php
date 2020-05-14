@@ -70,7 +70,7 @@ else if ($maxsumans==$technologysumAns){
 		<script src="./libs/iconselect.js?<?php echo time()?>"></script>
 		
     </head>
-    <body class="answer-background" id="background"  style="background-image:url('./img/answerbackground.png'); background-size: 100% 120%">
+    <body class="answer-background" id="background"  style="background-image:url('./img/answerbackground.png'); background-size: 100% 100%">
     
     <script>
 			window.onload = function () {
@@ -80,8 +80,8 @@ else if ($maxsumans==$technologysumAns){
 					data : {
 						labels: ["保守型", "穩健型", "成長型", "價值型", "積極型", "技術型"],
 						datasets:[{
-							backgroundColor :'#3B98F4',
-							borderColor :'#3B98F4',
+							backgroundColor :'rgba(185,225,237,0.55)',
+							borderColor :'#468DCC',
 							label:"投資類型",
 							data:[<?php echo $conservativesumAns . "," . $steadysumAns . "," . $growthsumAns . "," . $valuesumAns . "," . $activesumAns . "," . $technologysumAns; ?>],
 						}],
@@ -89,7 +89,8 @@ else if ($maxsumans==$technologysumAns){
 						options :{
 							legend: {
 								labels: {
-									fontColor: '#40210F'
+									fontColor: '#40210F',
+									
 								}
 							}
 							,
@@ -102,6 +103,12 @@ else if ($maxsumans==$technologysumAns){
 								}
 							}
 							,
+							point: {
+								backgroundColor:'#468DCC',
+								borderColor:'#468DCC',
+						
+							}
+							,
 							scale: {
 								angleLines:{
 									color :'#40210F',
@@ -111,13 +118,16 @@ else if ($maxsumans==$technologysumAns){
 								},
 								pointLabels:{
 									fontColor : '#40210F' ,
+									fontSize: 24,
 								},
 								ticks: {
-									backdropColor:'rgba(0, 0, 0, 0)',
+									display:false,
 									min:0,
 									max:25,
 									stepSize: 5
+									
 								}
+								
 							}
 						}
 				});
@@ -125,13 +135,12 @@ else if ($maxsumans==$technologysumAns){
 		</script>
 	</script>
 	
-	<div style="heigh=100%;display:;padding-top:60%" id="rader" >
+	<div style="heigh=100%;display:;padding-top:55%" id="rader" >
 					<br>
-					<br>
-					
-					<div style="background-color: #F6F6F6; margin-left:15%;margin-right:15% ;border:2px solid black;opacity:40%">
-						 <div style ="max-width: 400px; max-height:400px;background-color:#F6F6F6;">
-						<canvas id="anspie" ></canvas>
+										
+					<div style=" margin-left:13%;margin-right:13% ;opacity:40%;background-image:url('./img/raderbackground.png');background-size:contain;">
+						 <div style ="max-width: 494px; max-height:406px;">
+						<canvas id="anspie" style="width:494px; height:406px;" ></canvas>
 						</div>
 					</div>		
     </div>
@@ -189,7 +198,7 @@ else if ($maxsumans==$technologysumAns){
 	<br>
 	<br>
 	<div>
-				<p class="ans-title">你的投資地圖</p>
+				<p class="ans-title">成長星的投資指南</p>
 			</div>
 	<?php 
 			// 設定位置 css class
@@ -227,10 +236,10 @@ else if ($maxsumans==$technologysumAns){
 	<div>
     <table  style="width:100%;margin-top:5%;position:fixed;bottom:0">
         <tr>
-            <td align="center" onclick="icon(1)"><img id="radericon" src="./img/icon/icon-01.png" alt="雷達圖"  width="70%" ></a></td>
-            <td align="center" onclick="icon(2)"><img id="investmenticon" src="./img/icon/icon-06.png" alt="投資學院" width="70%" ></a></td>
-            <td align="center" onclick="icon(3)"><img id="celebrityicon" src="./img/icon/icon-07.png" alt="名人代表"  width="70%"></a></td>
-            <td align="center" onclick="icon(4)"><img id="learnicon" src="./img/icon/icon-08.png" alt="推薦學習管道"   width="70%"></a></td>
+            <td align="center" onclick="icon(1)"><img id="radericon" src="./img/icon/icon-01.png" alt="雷達圖"  width="95%" ></a></td>
+            <td align="center" onclick="icon(2)"><img id="investmenticon" src="./img/icon/icon-06.png" alt="投資學院" width="95%" ></a></td>
+            <td align="center" onclick="icon(3)"><img id="celebrityicon" src="./img/icon/icon-07.png" alt="名人代表"  width="95%"></a></td>
+            <td align="center" onclick="icon(4)"><img id="learnicon" src="./img/icon/icon-08.png" alt="推薦學習管道"   width="95%"></a></td>
 	</table>
 		</div>
         </body>

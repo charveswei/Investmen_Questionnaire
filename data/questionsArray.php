@@ -13,7 +13,7 @@ array_push($questionsArray, "我的投資取向在於分散風險");
 array_push($questionsArray, "遇到問題時我會收集他人意見或參考專家意見");
 array_push($questionsArray, "我是個循規蹈矩的人");
 
-array_push($questionsArray, "我一旦選定某個商品便是長期持有，不會輕易脫手");
+array_push($questionsArray, "我一旦選定某個金融商品便是長期持有，不會輕易賣掉");
 array_push($questionsArray, "我喜歡透過書籍或是新聞收集投資訊息");
 array_push($questionsArray, "比起穩定但收益低的投資，我願意承擔更多風險獲得更高的收益");
 array_push($questionsArray, "我認為投資最重要的是市場的未來發展");
@@ -22,7 +22,7 @@ array_push($questionsArray, "我是個有自信且堅定的人");
 array_push($questionsArray,  "我的理財目標在於妥善利用複利做長期投資");
 array_push($questionsArray, "我認為決定買進或賣出的關鍵在於對企業的分析");
 array_push($questionsArray, "我的投資取向在於那些發展成熟穩定、風險較低的商品");
-array_push($questionsArray, "我認為買股票最重要的是選擇的種類");
+array_push($questionsArray, "我認為買股票最重要的是看產業種類");
 array_push($questionsArray, "我是個專注踏實的人");
 
 array_push($questionsArray, "我的長期理財目標在於資產最大獲利");

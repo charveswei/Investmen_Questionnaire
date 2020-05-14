@@ -64,8 +64,8 @@ for ($i = 0; $i < $arraySize; $i++) {
 		</script>
 	<script src="./libs/select.js"></script>
     </head>
-    <body class="test-background">
-			<div style="height:15%;"></div>
+    <body style="background-image:url('./img/test1background.png');background-repeat: no-repeat;background-size: 100% 136%;">
+			<div style="height:10%;"></div>
 		
 			<div >
 
@@ -100,13 +100,15 @@ for ($i = 0; $i < $arraySize; $i++) {
 					echo "</table>";
 					
 					echo "<input type=hidden name=".$questionsName." id=".($i+1)." value=''> ";
+					if($i!=4){
 					echo "<br>";
+					}
 				  }
 				
 				?>				
 				
-				
-				<div class="col-md-4 text-center" style="color:#CDEFF7">
+				<br>
+				<div class="col-md-4 text-center" style="color:#595757;font-weight:bold;">
 					1/6
 				</div>
 				<div class="col-md-4 text-center">

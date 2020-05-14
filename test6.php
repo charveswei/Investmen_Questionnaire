@@ -53,11 +53,11 @@ $arraySize = count($questionsArray);
 		</script>
 	<script src="./libs/select.js"></script>
     </head>
-	<body class="test-background">
+	<body style="background-image:url('./img/test6background.png');background-repeat: no-repeat;background-size: 100% 152%;">
 			<div style="height:15%;"></div>
 		
 			
-				<form action="test6Answer.php" method="POST" >
+				<form class="form-div" action="test6Answer.php" method="POST" >
 					<br>
 			
 			  <?php
@@ -87,17 +87,19 @@ $arraySize = count($questionsArray);
 					
 					echo "</table>";
 					echo "<input type=hidden name=".$questionsName." id=".($i+1)." value=''> ";
+					if($i!=29){
 					echo "<br>";
+					}
 				  }
 				
 				?>				
 				
 				
-				<div class="col-md-4 text-center" style="color:#CDEFF7">
+				<div class="col-md-4 text-center" style="color:#595757;font-weight:bold;">
 					6/6
 				</div>
 				<div class="col-md-4 text-center">
-					<button type="submit" class="nextbtn"></button>
+					<button type="submit" class="finalbtn"></button>
 				</div>
 			
 				</form>
