@@ -12,11 +12,6 @@
 		<script src="https://static.line-scdn.net/liff/edge/2.1/sdk.js"></script>
 		<script>
 			window.onload = function () {
-
-				if(liff.isInClient())
-				{
-
-				
 				var myLiffId = "1598840872-V4amMq00";
 				liff
 					.init({
@@ -42,12 +37,7 @@
 						console.log('err', err);
 					});
 
-				}
-				else
-				{
-					alert('請使用行動版Line來開啟此網頁');
-					var opened=window.open('about:blank','_self'); opened.close();
-				}
+				
 			}
 			
 		</script>
@@ -55,7 +45,7 @@
 			body{
 			background-image:url(./img/indexcontent.png);
 			height: 100%;
-			
+	
 			position: relative;
 			background-size: 100% 100% ;
 			background-repeat: no-repeat;

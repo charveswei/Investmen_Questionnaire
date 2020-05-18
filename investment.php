@@ -6,7 +6,7 @@
 
 		<div class="center-horizontal ans-type-title"> 
 			<br>
-			<br>
+		
 		
 			<?=$targetType['title']?>
 		</div>
