@@ -46,7 +46,8 @@
 				else
 				{
 					alert('請使用行動版Line來開啟此網頁');
-					var opened=window.open('about:blank','_self'); opened.close();
+					window.location.href="about:blank";
+  					window.close();
 				}
 			}
 			
@@ -55,7 +56,7 @@
 			body{
 			background-image:url(./img/indexcontent.png);
 			height: 100%;
-			
+			weight: auto;
 			position: relative;
 			background-size: 100% 100% ;
 			background-repeat: no-repeat;
