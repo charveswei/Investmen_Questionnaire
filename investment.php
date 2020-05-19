@@ -4,10 +4,10 @@
 	
 	<div class="center-horizontal ans-title">最適合你的投資星球是</div>
 
+
+		<div class="moon">
 		<div class="center-horizontal ans-type-title"> 
-			<br>
-		
-		
+			<br>	
 			<?=$targetType['title']?>
 		</div>
 		<br>
@@ -16,11 +16,13 @@
 		</div>
 		
 	
+
+	
+	
+
 	<br>
 	<br>
-
-
-
+	<div style="bottom:23%;position:fixed;width:100%">
 	<div>
 		<p class=" ans-title"> 適合你的投資策略</p>
 	</div>
@@ -46,4 +48,7 @@
 	endforeach;
 	?>
 	</div>
+
+</div>
+</div>
 </div>

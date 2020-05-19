@@ -29,7 +29,8 @@ $arraySize = count($questionsArray);
 
 <html>
     <head>
-        <meta charset="utf-8">
+		<meta charset="utf-8">
+		<link rel="shortcut icon" href="./favicon.ico" />
         <title>測驗二</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />

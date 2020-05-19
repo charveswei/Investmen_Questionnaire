@@ -61,7 +61,8 @@ else if ($maxsumans==$technologysumAns){
         <meta charset="utf-8">
         <title>結果</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/css/bootstrap.min.css">  
+		<link rel="stylesheet" href="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/css/bootstrap.min.css">  
+		<link rel="shortcut icon" href="./favicon.ico" />
 		<link rel="stylesheet" href="css/questions.css?<?php echo time()?>">  	    
 		<script src="https://cdn.staticfile.org/jquery/2.1.1/jquery.min.js"></script>
         <script src="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
@@ -135,20 +136,21 @@ else if ($maxsumans==$technologysumAns){
 		</script>
 	</script>
 	
-	<div style="heigh=100%;display:;padding-top:55%" id="rader" >
-					<br>
+	<div style="heigh=100%;display:;padding-top:50%" id="rader" >
+				
 										
-					<div style=" margin-left:13%;margin-right:13% ;opacity:40%;background-image:url('./img/radarbackground.png');background-size:contain;background-repeat: no-repeat">
+					<div style=" margin-left:auto;margin-right:auto ;opacity:40%;background-image:url('./img/radarbackground.png');background-size:contain;background-repeat: no-repeat;width:75%;height:75%">
+					<br>
 					<div style="background-image:url('./img/radarname.png');background-position: center;background-repeat: no-repeat;background-size: cover;height:31px;text-align:center;font-size:20px;color:white;margin-left:10%;margin-right:10%;"><?php echo $Content?>投資人格</div>
-						 <div style ="max-width: 489px; max-height:507px;">
+						 <div style ="position: relative;width:250px;height:250px;margin:auto">
 						 
-						<canvas id="anspie" style="width:489px; height:507px;" ></canvas>
+						<canvas id="anspie"  ></canvas>
 						</div>
 					</div>		
     </div>
 	
 	<div style="heigh=120%;display:none;" id="investment">
-	<br><br><br>
+	<br>
 	<?php
 					$count = 0 ;
 					$size = count($showContentArray);
@@ -182,6 +184,7 @@ else if ($maxsumans==$technologysumAns){
 			<div>
 				<p class="ans-title"> 你最像的投資名人是....</p>
 			</div>
+			<br>
 			<div class="ans-img-frame img-responsive center-block">
 				<img class="ans-img" src="<?=$targetPeople['imgPath']?>">
 			</div>
@@ -211,12 +214,10 @@ else if ($maxsumans==$technologysumAns){
 				$classCount++;
 				$thisData= $ansAdvertisementContentArray[$val];
 		?>
-			<div class="compass">
-				<img class="compass-img" src="./img/compass.png">
-			</div>
+			
 			<div class="<?=$thisClassName?>">
 				 <a href="<?=$thisData['link']?>" target="_blank">
-			
+					<div class= "ad-border">
 					<div class="ad-img">
 						<img class="ad-img" src="<?=$thisData['imgPath']?>" >
 					</div>
@@ -226,7 +227,9 @@ else if ($maxsumans==$technologysumAns){
 					<div class="ad-content">
 						<?=$thisData['content']?>
 					</div>
+			</div>
 				 </a>
+				 
 			</div>
 		<?php	
 			endforeach;

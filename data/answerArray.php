@@ -28,25 +28,25 @@ $ansAdvertisementContentArray = [
 	"股感-外匯" => [
 		"title" => "股感",
 		"content" => "外匯投資知多少！",
-		"imgPath" => "./img/recommend/icon_anue.png",
+		"imgPath" => "./img/recommend/icon_stockfeel.png",
 		"link" => "https://lihi1.com/9y6yb",
 	],
 	"股感-股市" => [
 		"title" => "股感",
 		"content" => "最有趣的投資概念股！",
-		"imgPath" => "./img/recommend/icon_anue.png",
+		"imgPath" => "./img/recommend/icon_stockfeel.png",
 		"link" => "https://lihi1.com/zMM3H",
 	],
 	"鉅亨網-基金" => [
 		"title" => "鉅亨網",
 		"content" => "實戰基金交易！",
-		"imgPath" => "./img/recommend/icon_stockfeel.png",
+		"imgPath" => "./img/recommend/icon_anue.png",
 		"link" => "https://lihi1.com/lQzVT",
 	],
 	"鉅亨網-外匯" => [
 		"title" => "鉅亨網",
 		"content" => "即時外匯報齁哩災！",
-		"imgPath" => "./img/recommend/icon_stockfeel.png",
+		"imgPath" => "./img/recommend/icon_anue.png",
 		"link" => "https://lihi1.com/yVoYu",
 	],
 	"市場先生-ETF" => [

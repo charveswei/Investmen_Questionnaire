@@ -7,11 +7,17 @@
 		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
         <link rel="stylesheet" href="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/css/bootstrap.min.css">  
         <link rel="stylesheet" href="css/questions.css?<?=time();?>">  
-	    <script src="https://cdn.staticfile.org/jquery/2.1.1/jquery.min.js"></script>
+		<script src="https://cdn.staticfile.org/jquery/2.1.1/jquery.min.js"></script>
+		<link rel="shortcut icon" href="./favicon.ico" />
         <script src="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
 		<script src="https://static.line-scdn.net/liff/edge/2.1/sdk.js"></script>
 		<script>
 			window.onload = function () {
+
+				if(liff.isInClient())
+				{
+
+				
 				var myLiffId = "1598840872-V4amMq00";
 				liff
 					.init({
@@ -37,7 +43,12 @@
 						console.log('err', err);
 					});
 
-				
+				}
+				else
+				{
+					alert('請使用行動版Line來開啟此網頁');
+					var opened=window.open('about:blank','_self'); opened.close();
+				}
 			}
 			
 		</script>
@@ -45,7 +56,7 @@
 			body{
 			background-image:url(./img/indexcontent.png);
 			height: 100%;
-	
+			
 			position: relative;
 			background-size: 100% 100% ;
 			background-repeat: no-repeat;
