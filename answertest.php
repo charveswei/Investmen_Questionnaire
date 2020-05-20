@@ -24,31 +24,37 @@ $maxsumans=max($conservativesumAns,$steadysumAns,$growthsumAns,$valuesumAns,$act
 if ($maxsumans==$conservativesumAns){
 	array_push($showContentArray, "conservative");
 	$Content="保守型";
+	$Compasstitle="保守";
 }
 // 穩健型
 else if ($maxsumans==$steadysumAns){
 	array_push($showContentArray, "steady");
 	$Content="穩健型";
+	$Compasstitle="穩健";
 }
 // 成長型
 else if ($maxsumans==$growthsumAns){
 	array_push($showContentArray, "growth");
 	$Content="成長型";
+	$Compasstitle="成長";
 }
 // 價值型
 else if ($maxsumans==$valuesumAns){
 	array_push($showContentArray, "value");
 	$Content="價值型";
+	$Compasstitle="價值";
 }
 // 積極型
 else if ($maxsumans==$activesumAns){
 	array_push($showContentArray, "active");
 	$Content="積極型";
+	$Compasstitle="積極";
 }
 // 技術型
 else if ($maxsumans==$technologysumAns){
 	array_push($showContentArray, "technology");
 	$Content="技術型";
+	$Compasstitle="技術";
 }
 
 
@@ -203,7 +209,7 @@ else if ($maxsumans==$technologysumAns){
 	<br>
 	<br>
 	<div>
-				<p class="ans-title">成長星的投資指南</p>
+				<p class="ans-title"><?php echo $Compasstitle; ?>星的投資指南</p>
 			</div>
 	<?php 
 			// 設定位置 css class

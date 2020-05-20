@@ -22,7 +22,7 @@ $ansAdvertisementContentArray = [
 	"股感-基金" => [
 		"title" => "股感",
 		"content" => "超入門基金學習！",
-		"imgPath" => "./img/recommend/icon_anue.png",
+		"imgPath" => "./img/recommend/icon_stockfeel.png",
 		"link" => "https://lihi1.com/gkJdW",
 	],
 	"股感-外匯" => [
