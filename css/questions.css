@@ -116,7 +116,7 @@ body, html {
   color: #CDEFF7;
   font-size: medium;
   margin-left:5%;
-  letter-spacing: ;
+ 
 }
 
 .questionsTitle-text {
@@ -255,8 +255,8 @@ a:visited {
 .ad-1 {
   position: absolute;
   top: 13%;
-  margin-left:20%;
-  margin-right: 20%;
+  margin-left:10%;
+  margin-right: 10%;
   width: 270px;
   
 }
@@ -264,8 +264,8 @@ a:visited {
 .ad-2 {
   position: absolute;
   top: 30%;
-  margin-left:20%;
-  margin-right: 20%;
+  margin-left:10%;
+  margin-right: 10%;
   width: 270px;
   
 }
@@ -273,8 +273,8 @@ a:visited {
 .ad-3 {
   position: absolute;
   top: 47%;
-  margin-left:20%;
-  margin-right: 20%;
+  margin-left:10%;
+  margin-right: 10%;
   width: 270px;
  
 }
@@ -288,8 +288,8 @@ a:visited {
 .ad-4 {
   position: absolute;
   top: 64%;
-  margin-left:20%;
-  margin-right: 20%;
+  margin-left:10%;
+  margin-right: 10%;
   width: 270px;
 }
 
