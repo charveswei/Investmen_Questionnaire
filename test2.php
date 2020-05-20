@@ -55,7 +55,7 @@ $arraySize = count($questionsArray);
 	</script>
 	<script src="./libs/select.js"></script>
     </head>
-    <body style="background-image:url('./img/test2background.png');background-repeat: no-repeat;background-size: 100% 150%;">
+    <body style="background-image:url('./img/test2background.png');background-repeat: no-repeat;background-size: 100% 152%;">
 			<div style="height:15%;"></div>
 		
 			
