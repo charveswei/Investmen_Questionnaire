@@ -148,7 +148,7 @@ a:visited {
 .ans-title-small{
   font-size:12px;
   height: initial;
-  display:inline;
+  text-align:center;
 }
 
 .indexbtn{
