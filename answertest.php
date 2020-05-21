@@ -142,10 +142,10 @@ else if ($maxsumans==$technologysumAns){
 		</script>
 	</script>
 	
-	<div style="heigh=100%;display:;padding-top:50%" id="rader" >
+	<div style="heigh=100vh;display:;padding-top:50%" id="rader" >
 				
 										
-					<div style=" margin-left:auto;margin-right:auto ;opacity:40%;background-image:url('./img/radarbackground.png');background-size:contain;background-repeat: no-repeat;width:75%;height:75%">
+					<div style=" margin-left:auto;margin-right:auto ;background-image:url('./img/radarbackground.png');background-size:contain;background-repeat: no-repeat;width:75%;height:75%">
 					<br>
 					<div style="background-image:url('./img/radarname.png');background-position: center;background-repeat: no-repeat;background-size: cover;height:31px;text-align:center;font-size:20px;color:white;margin-left:10%;margin-right:10%;"><?php echo $Content?>投資人格</div>
 						 <div style ="position: relative;width:250px;height:250px;margin:auto">
@@ -155,7 +155,7 @@ else if ($maxsumans==$technologysumAns){
 					</div>		
     </div>
 	
-	<div style="heigh=120%;display:none;" id="investment">
+	<div style="heigh=100vh;display:none;" id="investment">
 	<br>
 	<?php
 					$count = 0 ;
@@ -180,7 +180,7 @@ else if ($maxsumans==$technologysumAns){
 			
 	</div>
 
-	<div style="heigh=100%;display:none;" id='celebrity'>
+	<div style="heigh=100vh;display:none;" id='celebrity'>
 	<br><br>
 		<?php 
 		// 特殊判斷是否存在投資名人
@@ -205,7 +205,7 @@ else if ($maxsumans==$technologysumAns){
 		?>
 	</div>
 	
-	<div style="heigh=120%;display:none;" id='learn'>
+	<div style="heigh=100vh;display:none;" id='learn'>
 	<br>
 	<br>
 	<div>
