@@ -24,7 +24,7 @@
 	<br>
 	<div style="bottom:23%;position:fixed;width:100%">
 	<div>
-		<p class=" ans-title"> 適合你的投資策略</p>
+		<p class=" ans-title"> 適合你的投資策略</p><div class="ans-title-small">點擊看更多</div>
 	</div>
 	<div style="text-align:center;background-image:url('./img/investmentlinkbackground.png');background-size:cover;background-repeat: no-repeat;background-position:center;margin-left:10%;margin-right:10%;">
 	<?php 

@@ -144,6 +144,11 @@ a:visited {
   text-align: center;
 }
 
+.ans-title-small{
+  font-size:12px;
+  height: initial;
+}
+
 .indexbtn{
   background-image:url(../img/indexbut.png) ;
    width:131.58px;height: 43.94px;
