@@ -142,11 +142,13 @@ a:visited {
   height: initial;
   font-weight:bold;
   text-align: center;
+  display:inline;
 }
 
 .ans-title-small{
   font-size:12px;
   height: initial;
+  display:inline;
 }
 
 .indexbtn{
